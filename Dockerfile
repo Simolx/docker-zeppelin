@@ -15,4 +15,4 @@ RUN python -m nltk.downloader all -d /opt/nltk_data
 
 VOLUME ["/notebook"]
 EXPOSE 8080
-CMD ["/opt/zeppelin-0.7.3-bin-all/bin/zeppelin.sh"]
+CMD ["/opt/distribute/zeppelin-0.7.3-bin-all/bin/zeppelin.sh"]
