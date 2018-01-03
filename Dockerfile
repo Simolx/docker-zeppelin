@@ -13,6 +13,6 @@ RUN curl -O http://www-us.apache.org/dist/zeppelin/zeppelin-0.7.3/zeppelin-0.7.3
 
 RUN python -m nltk.downloader all -d /opt/nltk_data
 
-VOLUME ["/notebook", "/opt/distribute/zeppelin-0.7.3-bin-all/zeppelin-web-0.7.3.war"]
+VOLUME ["/notebook"]
 EXPOSE 8080
 CMD ["/opt/zeppelin-0.7.3-bin-all/bin/zeppelin.sh"]
