@@ -11,4 +11,4 @@ RUN curl -L http://apache.cs.utah.edu/zeppelin/zeppelin-${ZEPPELIN_VERSION}/zepp
     cp /opt/distribute/zeppelin-${ZEPPELIN_VERSION}-bin-all/conf/zeppelin-site.xml.template /opt/distribute/zeppelin-${ZEPPELIN_VERSION}-bin-all/conf/zeppelin-site.xml
 VOLUME ["/notebook"]
 EXPOSE 8080
-CMD ["/opt/distribute/zeppelin-${ZEPPELIN_VERSION}-bin-all/bin/zeppelin.sh"]
+CMD ["/opt/distribute/zeppelin-0.7.3-bin-all/bin/zeppelin.sh"]
